@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+web/node_modules/
+
+# Build
+bin/
+web/.next/
+web/out/
+
+# Environment
+.env
+.env.local
+server/config.yaml
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Go
+server/*.exe
+server/*.test
+server/*.out
+server/vendor/
+
+# Logs
+*.log
+
+# Coverage
+coverage/

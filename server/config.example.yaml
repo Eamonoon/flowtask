@@ -1,0 +1,29 @@
+server:
+  port: 8080
+  mode: debug
+
+database:
+  host: localhost
+  port: 5432
+  user: flowtask
+  password: flowtask
+  dbname: flowtask
+  sslmode: disable
+
+redis:
+  host: localhost
+  port: 6379
+  db: 0
+
+jwt:
+  access_secret: dev-access-secret-change-in-production
+  refresh_secret: dev-refresh-secret-change-in-production
+  access_ttl: 15m
+  refresh_ttl: 168h
+
+ai:
+  api_key: your-openai-api-key
+  base_url: https://api.openai.com/v1
+  model: gpt-4o
+  max_retries: 3
+  timeout: 60s

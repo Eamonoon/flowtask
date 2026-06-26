@@ -40,7 +40,16 @@
 
 *GATE: Must pass before Phase 0 research. Re-check after Phase 1 design.*
 
-[Gates determined based on constitution file]
+- Spec Before Build: confirm `spec.md` is current and clarifications are
+  integrated before planning.
+- Testable Delivery: list required validation work for P1 flows and measurable
+  non-functional goals.
+- Contract-First Integration: confirm contracts, data model, and task plan stay
+  synchronized for any interface or state transition change.
+- Operability By Default: identify health, error handling, retry, and recovery
+  expectations for shared dependencies.
+- Keep Scope Honest: note any deferred or out-of-scope items and ensure they do
+  not reappear as implicit commitments.
 
 ## Project Structure
 
